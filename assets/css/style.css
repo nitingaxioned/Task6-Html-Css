@@ -100,7 +100,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 65.5%; 
   margin: 0 auto;
 }
 /*=================================
@@ -119,13 +119,54 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.welcome{  
+  background-image: linear-gradient(to right, #534a76 , #753e79);
+  padding: 177px 0 75px ;
+}
+.welcome-template{
+  display: flex;
+  justify-content: center;
+}
 
+.prism{ 
+  border-right: 1px solid #9b7ca3;
+  color: #fdfafa;
+  font-weight: bold;
+}
 
+.prism p{
+  font-size: 31.5px;
+  margin-right: 10%;
+  line-height: 44px;
+}
 
+.prism span{ text-transform: uppercase; }
+.welcome-template li{ width: 50%; }
 
+.prism-txt{
+  transform: translateX(8.5%);
+  color: #fdfafa;
+}
 
+.prism-txt p{
+  font-weight: 600;
+  font-size: 14.5px;
+  margin-right: 15%;
+  line-height: 20.5px;
+  opacity: 0.4;
+}
 
-
+.prism-txt a{
+  text-transform: uppercase;
+  color: #fdfafa;
+  background-color: #49bd8b;
+  padding : 11px 7%;
+  border: 1px solid #49bd8b;
+  border-radius: 25px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 25px;
+}
 
 /*=================================
   main styling ends here
