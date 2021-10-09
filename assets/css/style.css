@@ -414,6 +414,19 @@ input:focus{ outline: none; }
   text-indent: -28px;
 }
 
+.card-list a:hover,
+.form-controls input:hover,
+a:hover{
+  background-color: #49bd8b;
+  border-color: #49bd8b;
+  color: #fafafa;
+}
+
+.prism-txt a:hover{
+  background-color: #fafafa;
+  border-color: #555555;
+  color: #555555;
+}
 
 /*=================================
   main styling ends here
