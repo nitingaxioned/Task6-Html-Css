@@ -325,17 +325,20 @@ li {
 }
 
 .oneline-input input{
-  border: 1px solid #999999;
+  border: 1px solid #cccccc;
   padding: 9px 5%;
   box-sizing: border-box;
 }
 
 textarea{
   width: 90.5%;
-  padding: 15px auto;
   min-height: 115px;
   margin-top: 25px;
-  border: 1px solid #999999;
+  border: 1px solid #cccccc;
+}
+
+textarea::placeholder{
+  padding: 12px 8px;
 }
 
 textarea:focus,
@@ -358,7 +361,8 @@ input:focus{ outline: none; }
 .orci-list-block{
   padding-left:8.5%;
   color: #656565;
-  font-size: 13px;
+  font-size: 12px;
+  letter-spacing: 0.2px;
   opacity: 0.9;
   display: flex;
   margin-top: 3px;
@@ -368,10 +372,10 @@ input:focus{ outline: none; }
 .orci-list-block li:last-child{ 
   margin: 0px 0 0px;
   width: 50%;
-  line-height: 28px;
+  line-height: 25px;
 }
 
-.orci-list-block li{  margin: 5px 0 18px; }
+.orci-list-block li{  margin: 5px 0 15px; }
 
 .twitter::before{
   color: #49bd8b;
@@ -382,12 +386,14 @@ input:focus{ outline: none; }
 .facebook::before{
   color: #49bd8b;
   content: "\f09a\2003";
+  padding-right: 5px;
   font-family: FontAwesome;
 }
 
 .insta::before{
   color: #49bd8b;
   content: "\f16d\2003";
+  padding-right: 2px;
   font-family: FontAwesome;
 }
 
@@ -419,7 +425,13 @@ input:focus{ outline: none; }
 
 
 
-
+footer{
+  background-color: #fafafa;
+  text-align: center;
+  font-size: 12px;
+  color: #aaaaaa;
+  padding: 52.5px 0;
+}
 
 
 
