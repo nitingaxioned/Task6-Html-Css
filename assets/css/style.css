@@ -225,6 +225,64 @@ li {
   font-family: FontAwesome;
 }
 
+.cards{ 
+  background: #fafafa;
+  padding: 62px 0;
+}
+
+.card-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  display: flex;
+  margin-bottom: 38px;
+  background:#ffffff;
+}
+
+.card figure{ width: 37.5vw; }
+
+.card-details{
+  border-bottom: 1px solid #dddddd;
+  padding-left: 4.25%;
+}
+
+.card-details h4{
+  color: #656565;
+  font-size: 16.5px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  margin-top: 76PX;
+}
+
+.card-details p{
+  color: #656565;
+  opacity: 0.8;
+  line-height: 25px;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.card-list li a,
+.card-details a{
+  text-transform: uppercase;
+  color: #656565;
+  padding : 10.5px 6.125%;
+  border: 1px solid #cccccc;
+  border-radius: 25px;
+  font-size: 10.5px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 5px;
+}
+
+.card-list li>a{
+  margin-top: 0;
+  padding : 10.5px 3.15%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 
 /*=================================
   main styling ends here
