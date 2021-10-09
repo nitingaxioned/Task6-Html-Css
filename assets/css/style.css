@@ -124,6 +124,7 @@ li {
   padding: 177px 0 75px ;
 }
 
+.orci-block,
 .magna-feugiat,
 .welcome-template{
   display: flex;
@@ -143,6 +144,7 @@ li {
 }
 
 .prism span{ text-transform: uppercase; }
+.orci-block>li,
 .magna-feugiat>li,
 .welcome-template li{ width: 50%; }
 
@@ -176,6 +178,7 @@ li {
   border: 1px solid #cccccc;
 }
 
+.orci-txt,
 .magna-txt{
   border-right: 1px solid #aaaaaa;
   color: #656565;
@@ -241,7 +244,13 @@ li {
   background:#ffffff;
 }
 
-.card figure{ width: 37.5vw; }
+.card figure{ 
+  width: 58%;
+  max-height: 290px;
+  overflow: hidden;
+}
+
+.card img{ width: 100%; }
 
 .card-details{
   border-bottom: 1px solid #dddddd;
@@ -279,10 +288,126 @@ li {
 
 .card-list li>a{
   margin-top: 0;
-  padding : 10.5px 3.15%;
+  padding : 10px 3.55%;
   margin-left: 50%;
   transform: translateX(-50%);
 }
+
+.orci{
+  padding: 62px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.orci-txt h4{
+  color: #555555;
+  opacity: 1;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  padding-top: 5px ;
+}
+
+.orci-txt p{
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: 25px;
+  width: 88%;
+}
+
+.error{ display: none; }
+
+.oneline-input{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 88%;
+  padding-top: 25px;
+}
+
+.oneline-input input{
+  border: 1px solid #999999;
+  padding: 9px 5%;
+  box-sizing: border-box;
+}
+
+textarea{
+  width: 90.5%;
+  padding: 15px auto;
+  min-height: 115px;
+  margin-top: 25px;
+  border: 1px solid #999999;
+}
+
+textarea:focus,
+input:focus{ outline: none; }
+
+.form-controls input{
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #656565;
+  padding : 11px 7%;
+  border: 1px solid #cccccc;
+  border-radius: 25px;
+  font-size: 10.5px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  background-color: #ffffff;
+}
+
+
+.orci-list-block{
+  padding-left:8.5%;
+  color: #656565;
+  font-size: 13px;
+  opacity: 0.9;
+  display: flex;
+  margin-top: 3px;
+  flex-direction: column;
+}
+
+.orci-list-block li:last-child{ 
+  margin: 0px 0 0px;
+  width: 50%;
+  line-height: 28px;
+}
+
+.orci-list-block li{  margin: 5px 0 18px; }
+
+.twitter::before{
+  color: #49bd8b;
+  content: "\f099\2003";
+  font-family: FontAwesome;
+}
+
+.facebook::before{
+  color: #49bd8b;
+  content: "\f09a\2003";
+  font-family: FontAwesome;
+}
+
+.insta::before{
+  color: #49bd8b;
+  content: "\f16d\2003";
+  font-family: FontAwesome;
+}
+
+.mail::before{
+  color: #49bd8b;
+  content: "\f0e0\2003";
+  font-family: FontAwesome;
+}
+
+.location::before{
+  color: #49bd8b;
+  content: "\f015\2003";
+  font-family: FontAwesome;
+}
+
+.location{
+  transform: translateX(28px);
+  text-indent: -28px;
+}
+
 
 /*=================================
   main styling ends here
