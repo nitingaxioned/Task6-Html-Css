@@ -123,6 +123,8 @@ li {
   background-image: linear-gradient(to right, #534a76 , #753e79);
   padding: 177px 0 75px ;
 }
+
+.magna-feugiat,
 .welcome-template{
   display: flex;
   justify-content: center;
@@ -141,6 +143,7 @@ li {
 }
 
 .prism span{ text-transform: uppercase; }
+.magna-feugiat>li,
 .welcome-template li{ width: 50%; }
 
 .prism-txt{
@@ -167,6 +170,61 @@ li {
   letter-spacing: 1px;
   margin-top: 25px;
 }
+
+.magna{
+  padding: 63px 0;
+  border: 1px solid #cccccc;
+}
+
+.magna-txt{
+  border-right: 1px solid #aaaaaa;
+  color: #656565;
+}
+
+.magna-txt h3{
+  font-size: 21.5px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  padding-top: 4px;
+}
+
+.magna-txt p{
+  font-size: 12px;
+  opacity: 0.9;
+  line-height: 25px;
+  margin : 25px 10% 0 0;
+}
+
+.magna-txt a{
+  text-transform: uppercase;
+  color: #656565;
+  padding : 11px 7%;
+  border: 1px solid #cccccc;
+  border-radius: 25px;
+  font-size: 10.5px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 22px;
+}
+
+.megna-list{
+  padding-left:8.5%;
+  color: #656565;
+  font-size: 12px;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+}
+
+.megna-list li:last-child{ margin: 5px 0 0px; }
+.megna-list li{  margin: 5px 0 25.1px; }
+
+.megna-list li::before{
+  color: #49bd8b;
+  content: "\f00c\2003";
+  font-family: FontAwesome;
+}
+
 
 /*=================================
   main styling ends here
