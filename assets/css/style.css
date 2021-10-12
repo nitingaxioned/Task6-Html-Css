@@ -440,9 +440,97 @@ footer span { text-transform: uppercase; }
 =================================*/ 
 
 /*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+/*media query for 1280px starts here*/
+@media only screen and (max-width: 1280px) {
 
+  .oneline-input{
+    display: flex;
+    flex-direction: column;
+  }
 
+  .oneline-input input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  textarea{ 
+    width: 82%; 
+    margin-top: 0;
+  }
+
+  .card-details h4{ margin-top: 20px; }
+  .orci-list-block li:last-child{ width: 90%; }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .wrapper{ width: 80%; }
+  .orci-list-block a:hover{ color: #656565; }
+  .card-details h4{ margin: 10px 0 0; }
+  .card-details p{ margin: 10px 0 10px; }
+
+  .cards .wrapper > a:hover,
+  .form-controls input:hover,
+  a:hover{
+    background-color: #fafafa;
+    border-color: #dddddd;
+    color: #555555;
+  }
+
+  .prism-txt a:hover{
+    background-color: #49bd8b;
+    border-color: #49bd8b;
+    color: #fafafa;
+  }
+
+}
+
+/*media query for 720px starts here*/
+@media only screen and (max-width: 720px) {
+
+  .orci .wrapper,
+  .magna .wrapper,
+  .welcome .wrapper{ flex-direction: column; }
+
+  .prism-txt,
+  .prism,
+  .orci-txt,
+  .orci-list,
+  .magna-txt,
+  .megna-list{ 
+    width: 100%; 
+    margin-bottom: 50px;
+  }
+
+  .orci-txt,
+  .magna-txt,
+  .prism{ border: none; }
+
+  .prism-txt,
+  .megna-list{ padding-left: 0; }
+  .welcome { padding-top: 70px; }
+  .card a{margin-bottom: 20px; }
+  .card figure{ width: 100%; }
+
+  .card{
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
 
 }  
+
+@media only screen and (max-width: 400px) {
+
+  .cards .wrapper a { 
+    margin: auto;
+    transform: translate(0, 0);
+  }
+
+  .cards{ text-align: center; }
+  .card{ max-width: 100%; }
+  .card-details{ padding: 10px; }
+
+}
